@@ -62,7 +62,6 @@ def total_even_pairs(src)
       end
       count_B+=1
     end
-        count+=1
-    end
-    total
+    count+=1
+  end
 end
