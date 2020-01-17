@@ -40,7 +40,7 @@ def find_greater_pair(src)
         count_B+=1
       end
     end
-    count+1
+    count+=1
   end
 end
 
