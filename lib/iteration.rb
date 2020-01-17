@@ -58,7 +58,6 @@ def total_even_pairs(src)
     while count_B < src.length[count] do
       if src[count][count_B]
         total += src[count][count_B]+src[count][src.length[count]-1]
-        total+=sum
       end
       count_B+=1
     end
