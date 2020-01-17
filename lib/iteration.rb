@@ -31,7 +31,7 @@ def find_greater_pair(src)
   while count < src.length do
     count_B = 0
     while count_B < src[count].length do
-      if src[count][count_B] > src[count][(count_B+1)]
+      if src[count][count_B] > src[count][src[count].length-1)]
         array.push(src[count][count_B])
       end
       count_B+=1
